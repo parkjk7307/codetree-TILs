@@ -3,7 +3,12 @@ x = input().split()
 a = int(x[0])
 b = int(x[1])
 
-for i in range(21):
-    z = a/b
+print(f"{a//b}.", end="")
 
-print(z)
+
+a%=b
+for i in range(20):
+    a *= 10
+    print(a //b, end ="")
+
+    a%=b
