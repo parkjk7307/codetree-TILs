@@ -1,5 +1,4 @@
 n = int(input())
-x = 0
 sum_val = 0
 
 for i in range(1,n+1):
