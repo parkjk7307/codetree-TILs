@@ -3,7 +3,7 @@ cnt = 0
 avg_val = 0
 while True:
     x = int(input())
-    if ((x % 20) >= 0 and (x % 20) < 10):
+    if (19 < x < 30):
         sum_val += x
         cnt += 1
         continue
