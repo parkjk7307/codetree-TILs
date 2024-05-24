@@ -6,6 +6,7 @@ while True:
     if 19 < x < 30:
         sum_val += x
         cnt += 1
+        continue
     else:
         break
 
