@@ -1,7 +1,7 @@
 sum_val = 0
 cnt = 0
 avg_val = 0
-
+x = 0
 while True:
     x = int(input())
     if ((x % 20) >= 0 and (x % 20) < 10):
