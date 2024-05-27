@@ -7,10 +7,10 @@ c = int(x[2])
 p = True
 
 for i in range(a,b+1):
-    if i % c != 0:
+    if i % c == 0:
         p = False
 
 if p == False:
-    print("YES")
-else:
     print("NO")
+else:
+    print("YES")
