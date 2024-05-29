@@ -1,10 +1,4 @@
-x = int(input())
-
-for i in range(x):
-    for a in range(i):
-        print(" ",end=" ")
-    for j in range((2 * x) - (2 * i) - 1):
-        print("*",end=" ")
+n = int(input())
 
 
 for i in range(n):
