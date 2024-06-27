@@ -11,4 +11,4 @@ for i in range(n):
         sum_val += x[i]
         count +=1
 
-print(sum_val,sum_val/count, end = " ")
+print(sum_val,f"{sum_val/count:.1f}", end = " ")
