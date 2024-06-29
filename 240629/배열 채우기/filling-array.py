@@ -1,11 +1,13 @@
-a = list(map(int,input().split()))
-b = len(a)
+# 배열에 주어진 수를 입력받아 저장합니다.
+arr = list(map(int, input().split()))
+cnt = 0
 
-for i in range(b):
-    if a[i] == 0:
-        a.pop()
-b = len(a)
+# 배열에 0이 있는지 확인합니다.
+for elem in arr:
+	if elem == 0:
+		break
+	cnt += 1
 
-for i in range(b-1, -1,-1):
-    
-    print(a[i], end =" ")
+# 0이 입력되기 전까지의 수를 반대 순서로 출력합니다.
+for i in range(cnt - 1, -1, -1):
+	print(arr[i], end=" ")
